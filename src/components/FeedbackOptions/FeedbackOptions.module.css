@@ -1,0 +1,24 @@
+.statistics__list {
+  display: flex;
+  margin-left: -30px;
+  list-style: none;
+}
+
+.statistics__btn {
+  border-radius: 4px;
+  margin-left: 20px;
+  border: transparent;
+  padding: 10px 20px;
+  color: #000000;
+  font-size: 20px;
+  cursor: pointer;
+  background: #f5f4fa;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.statistics__btn:hover,
+.statistics__btn:focus {
+  background-color: #783481;
+  color: #f5f4fa;
+}
